@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="ventana">
+    <div class="logo">
+      <img class="logoM"src="imagenes/logo.png" alt="">
+      <h1 class = "titulo">Encriptador texto Mapache</h1>
+    </div>
+    <div class="ventanaI">
+    <input class="text-input" id="inputTexto" type="text" placeholder="
+    Ingrese el texto aqui">
+
+    </div>
+    <div class="ventanaD">
+        <img src="imagenes/muheco.png" id="imDer">
+        <h1 id="texto1">Ningun mensaje fue encontrado</h1>
+        <textarea id="texto2"name="name" rows="8"cols="80">Ingrese texto que desee encriptar o desencriptar.</textarea>
+        <button id="btCopiar" type="button"onclick="copiar()">Copiar</button>
+        
+    </div>
+       <div class="v-botton">
+       <p class="texto3">&iexcl Solo texto en minuscula y sin acentos</p>
+        <button type="button"id="bt-Encriptar" onclick="encriptar()">Encriptar</button>
+        <button type="button"id="bt-Desencriptar" onclick="desencriptar()">Desencriptar</button>
+      
+    
+       </div>
+    </div>
+    
+</body>
+</html>
